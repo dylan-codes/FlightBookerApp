@@ -1,0 +1,155 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #3498db;
+  text-align: center;
+  color:#edf0f1;
+  font-family: 'Roboto', sans-serif;
+}
+
+li, a{
+  font-weight: 500;
+  font-size: 20px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.main {
+    background-color: rgba(137, 196, 244, 1);
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+  color: #f4f776;
+}
+
+button {
+  padding: 9px 25px;
+  color: black;
+  background-color: #f4d03f;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0,136,169, .8);
+}
+
+.login {
+  font-size: 16px;
+}
+
+.statusmsg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.travelCard {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 40px;
+  border-radius: 5px;
+  padding-top: 10px;
+  justify-content: center;
+}
+
+#wrapper {
+  display: block;
+  justify-content: center;
+  width: 60em;
+  margin: 0 auto;
+  padding-top: 50px;
+  background-color: rgba(224, 130, 131, .9);
+  border-radius: 10px;
+}
+
+.container {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+img {
+  border-radius: 5px;
+}
+
+#headliner {
+   padding-bottom: 30px;
+ }
+
+nav {
+  background-color: rgba(137, 196, 244, 1);
+}
+
+.bookings {
+  margin: auto;
+  padding: inherit;
+
+}
+
+input {
+  border-radius: 5px;
+  color: black;
+  border-color: gray;
+  background-color: #edf0f1;
+}
+
+hr {
+  display: flex;
+  align-content: center;
+  border: solid yellow;
+}
+
+.signuperror {
+  color: #96281b;
+}
+
+.signupsuccess {
+  color: #1e824c;
+}
